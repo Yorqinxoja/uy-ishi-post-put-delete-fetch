@@ -1,0 +1,91 @@
+body {
+  background: #c31432;  
+  background: -webkit-linear-gradient(to bottom, #240b36, #c31432); 
+  background: linear-gradient(to bottom, #240b36, #c31432); 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 20px;
+}
+
+.container {
+  background-color: #1e1e1ec9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  outline: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button {
+  background-color: #6200ea7b;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: #4c00ff;
+  transition: 0.2s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #000000;
+  border: 1px solid #000000;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+}
+
+li:hover{
+  border: 1px solid red;
+  transition: 0.2s;
+}
+
+li span {
+  flex-grow: 1;
+}
+
+li button {
+  background-color: #d32f2f76;
+  margin-left: 10px;
+  transition: 1s;
+}
+
+li button:hover {
+  background-color: #ff000d;
+  transition: 0.2s;
+}
